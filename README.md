@@ -4,7 +4,7 @@ Built using **FastAPI**, **React**, and **Docker**
 
 ---
 
-![Luxura Home](./public/luxura_home.png)
+![Luxura Home](frontend/public/luxura_home.png)
 
 ## 🚀 Overview
 
@@ -36,31 +36,31 @@ It combines real-time flights, AI-curated hotels, attractions, restaurants, dail
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home](./public/luxura_home.png)
+![Home](frontend/public/luxura_home.png)
 
 ### ℹ️ Info Section
-![Info](./public/luxura_info.png)
+![Info](frontend/public/luxura_info.png)
 
 ### 🧭 Input Form
-![Input Form](./public/luxura_input_form.png)
+![Input Form](frontend/public/luxura_input_form.png)
 
 ### ✈️ Live Flights Section
-![Flights](./public/luxura_flights.png)
+![Flights](frontend/public/luxura_flights.png)
 
 ### 🏨 Hotels
-![Hotels](./public/luxura_hotels.png)
+![Hotels](frontend/public/luxura_hotels.png)
 
 ### 🗓 Itinerary Planner
-![Itinerary](./public/luxura_itinerary.png)
+![Itinerary](frontend/public/luxura_itinerary.png)
 
 ### 🌆 Attractions
-![Attractions](./public/luxura_attractions.png)
+![Attractions](frontend/public/luxura_attractions.png)
 
 ### 🍽 Restaurants
-![Restaurants](./public/luxura_restaurants.png)
+![Restaurants](frontend/public/luxura_restaurants.png)
 
 ### 🚕 Weather & Transport
-![WeatherTransport](./public/luxura_transportandweather.png)
+![WeatherTransport](frontend/public/luxura_transportandweather.png)
 
 
 ## 🐳 Run With Docker (Recommended)
@@ -83,6 +83,7 @@ docker compose up --build
 
 ## 🗂 Project Structure
 
+```
 luxura/
 ├── backend/
 │   ├── main.py
@@ -97,12 +98,20 @@ luxura/
 │   ├── public/
 │   │   ├── luxura_home.png
 │   │   ├── luxura_info.png
-│   │  
+│   │   ├── luxura_input_form.png
+│   │   ├── luxura_flights.png
+│   │   ├── luxura_hotels.png
+│   │   ├── luxura_itinerary.png
+│   │   ├── luxura_attractions.png
+│   │   ├── luxura_restaurants.png
+│   │   └── luxura_transportandweather.png
+│   │
 │   ├── src/
 │   │   ├── components/
 │   │   ├── pages/
 │   │   ├── styles/
 │   │   └── api.js
+│   │
 │   └── package.json
 │
 ├── docker-compose.yml
@@ -110,6 +119,7 @@ luxura/
 ├── Dockerfile.frontend
 └── README.md
 
+```
 
 ## 🤖 Features
 
