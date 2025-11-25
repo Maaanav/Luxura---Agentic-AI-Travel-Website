@@ -1,0 +1,9 @@
+@import './styles/variables.css';
+@import './styles/base.css';
+@import './styles/video-bg.css';
+@import './styles/hero.css';
+@import './styles/info.css';
+@import './styles/input-form.css';
+@import './styles/footer.css';
+@import './styles/loading.css';
+@import './styles/results.css';
