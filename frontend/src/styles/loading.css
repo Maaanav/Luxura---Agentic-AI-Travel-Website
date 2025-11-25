@@ -1,0 +1,19 @@
+
+.loading-screen{
+  position: relative;
+  min-height: 100vh;
+  background: var(--bg);
+  display:flex; align-items:center; justify-content:center;
+  color: #fff;
+}
+
+.compass{
+  width:180px; height:180px; border-radius:50%; border:8px solid rgba(255,255,255,0.04);
+  display:flex; align-items:center; justify-content:center; animation:spin 4s linear infinite;
+  background: linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.45));
+}
+
+.needle{ width:4px; height:70px; background:var(--accent-1); transform-origin:bottom; animation:compass 8s ease-in-out infinite; }
+
+@keyframes spin{ to { transform: rotate(360deg); } }
+@keyframes compass{ 0%,100%{ transform: rotate(-25deg); } 50%{ transform: rotate(25deg); } }

@@ -1,0 +1,47 @@
+.video-bg {
+  position: absolute;
+  inset: 0;                
+  z-index: -2;           
+  overflow: hidden;
+  pointer-events: none;   
+}
+
+
+.bg-poster {
+  position: absolute;
+  inset: 0;
+  z-index: -3;
+  background: linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.18));
+}
+
+.video-bg video,
+.video-bg .bg-video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  -o-object-fit: cover;
+  -webkit-object-fit: cover;
+  will-change: transform;
+  filter: brightness(0.95) contrast(1.03);
+}
+
+.video-overlay,
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -1; 
+  background: linear-gradient(180deg, rgba(0,0,0,0.10) 0%, rgba(0,0,0,0.40) 100%);
+  pointer-events: none;
+}
+
+.image-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  filter: brightness(0.95) saturate(0.98);
+}

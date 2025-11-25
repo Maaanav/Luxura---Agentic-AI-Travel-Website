@@ -1,0 +1,39 @@
+.transport-section {
+  padding: 50px 20px;
+  position: relative;
+}
+
+.transport-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  padding: 20px;
+  border-radius: 18px;
+  margin: 20px auto;
+  max-width: 900px;
+  backdrop-filter: blur(16px);
+}
+
+.weather-block {
+  margin-top: 20px;
+  padding: 20px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.weather-title {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: var(--accent-2);
+}
+
+.weather-temp {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--accent-1);
+}
+
+.weather-desc {
+  margin-top: 8px;
+  opacity: 0.85;
+}

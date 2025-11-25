@@ -1,0 +1,43 @@
+
+.hotels-section {
+  padding: 50px 20px;
+  position: relative;
+}
+
+.hotel-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 18px;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 900px;
+  backdrop-filter: blur(18px);
+  display: flex;
+  gap: 20px;
+  box-shadow: var(--glass-shadow);
+}
+
+.hotel-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+.hotel-info h3 {
+  font-size: 1.4rem;
+  margin-bottom: 6px;
+}
+
+.hotel-rating {
+  margin-top: 6px;
+  font-weight: 600;
+  color: var(--accent-2);
+}
+
+.hotel-price {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--accent-1);
+}

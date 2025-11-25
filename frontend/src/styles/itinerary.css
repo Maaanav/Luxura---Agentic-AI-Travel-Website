@@ -1,0 +1,28 @@
+.itinerary-section {
+  padding: 50px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.day-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 20px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: var(--glass-shadow);
+}
+
+.day-title {
+  font-size: 1.6rem;
+  background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 12px;
+}
+
+.day-activity {
+  padding-left: 20px;
+  line-height: 1.7;
+  opacity: 0.9;
+}
